@@ -5,6 +5,7 @@ import { FormData, ItineraryData, ApiResponse } from '@/types/trip';
 
 // Initialize Vertex AI
 let vertex_ai: VertexAI | null = null;
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 let generativeModel: any = null;
 
 try {
